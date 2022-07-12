@@ -10,5 +10,8 @@ public class Main {
         IntEqualityPrinter.printEqual(1,1,2);
         IntEqualityPrinter.printEqual(1,2,3);
         IntEqualityPrinter.printEqual(2,1,1);
+        System.out.println(PlayingCat.isCatPlaying(true,10));
+        System.out.println(PlayingCat.isCatPlaying(false,38));
+        System.out.println(PlayingCat.isCatPlaying(false,35));
     }
 }
