@@ -9,7 +9,7 @@ public class AreaCalculator {
         return radius * radius * Math.PI;
     }
 
-    public static double area(double x, Double y) {
+    public static double area(double x, double y) {
         if (x < 0 || y < 0) {
             return INVALID_AREA;
         }
